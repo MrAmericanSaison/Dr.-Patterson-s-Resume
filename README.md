@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 RC Patterson's Resume
 
 <html>
