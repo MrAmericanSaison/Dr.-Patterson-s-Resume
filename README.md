@@ -56,7 +56,7 @@ RC Patterson's Resume
     <button>About Me</button>
     </a>
 
-    <a href="(https://mramericansaison.github.io/Dr.-Patterson-s-Resume/Resume%20Draft.html)">
+    <a href="https://mramericansaison.github.io/Dr.-Patterson-s-Resume/Resume Draft.html">
     <button>Resume WebPage</button>
     </a>
     <script>
