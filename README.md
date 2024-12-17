@@ -1,7 +1,8 @@
 RC Patterson's Resume
-
 <html>
 <head>
+     <img src="Me.png" alt="github.com">
+
     <meta charset="UTF-8" />
     <title>RC Patterson's Resume</title>
     <style>
