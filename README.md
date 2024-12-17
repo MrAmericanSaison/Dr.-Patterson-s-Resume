@@ -3,8 +3,6 @@ RC Patterson's Resume
 
 <html>
 <head>
-<img src="https://github.com/user-attachments/assets/4f589c5d-6b50-45eb-9418-c496c0d35480)](https://github-production-user-asset-6210df.s3.amazonaws.com/115326844/396683127-4f589c5d-6b50-45eb-9418-c496c0d35480.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241217T221503Z&X-Amz-Expires=300&X-Amz-Signature=6552a2eed64c19db50f3a56633b410b9c72e40f51fd6189ce897c0fc21904d91&X-Amz-SignedHeaders=host)" alt="github.com">
-
     <meta charset="UTF-8" />
     <title>RC Patterson's Resume</title>
     <style>
@@ -56,6 +54,10 @@ RC Patterson's Resume
 
     <a href="https://patteso1849.wordpress.com/about/">
     <button>About Me</button>
+    </a>
+
+    <a href="[https://patteso1849.wordpress.com/about/](https://mramericansaison.github.io/Dr.-Patterson-s-Resume/Resume%20Draft.html)">
+    <button>Resume</button>
     </a>
     <script>
         alert("Welcome to my web page")
