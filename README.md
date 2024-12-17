@@ -3,7 +3,8 @@ RC Patterson's Resume
 
 <html>
 <head>
-    <img src="![Me](https://github.com/user-attachments/assets/1facafab-bc47-4abb-b73a-8503f4c78ca7)" alt="github.com">
+   ![Me](https://github.com/user-attachments/assets/4f589c5d-6b50-45eb-9418-c496c0d35480)
+
     <meta charset="UTF-8" />
     <title>RC Patterson's Resume</title>
     <style>
@@ -15,7 +16,7 @@ RC Patterson's Resume
 </head>
 <body>
     <h1>RC Patterson's Resume</h1>
-    <h2></h2>Professional Summary</h2>
+    <h2>Professional Summary</h2>
     <h3></h3>
     <p>Highly analytical professional with expertise in propositional and predicate logic, and a strong foundation in philosophy. Skilled at applying logical reasoning to solve business problems, streamline web development processes, and optimize decision-making strategies. Proven track record of using formal logic to design efficient algorithms, enhance data analysis, and create solutions that improve operational efficiency. Experienced in translating complex logic-based frameworks into practical applications in both educational and professional contexts. Proficient in programming languages (Python, HTML, CSS, JavaScript) and technical tools (Jenzabar CX, Agile methodologies, Tableau).</p>
     <h1>Core Competencies</h1>
