@@ -29,7 +29,7 @@
     <input placeholder="Console.log test"
         class="js-name-input">
     <button onclick="
-        addTodo();
+        addConsoleLog();
     ">Add</button>
     <h1 style="text-align: center;">Education</h1>
     <h2 style="text-align: center;">Doctor of Education (Ed.D.)</h2>
@@ -65,14 +65,14 @@
         alert("Welcome to my web page")
             
            
-       const ConsoleLogtest = [];
+       const onsoleLogtest = [];
 
        function addConsoleLog() {
         const inputElement = document.querySelector('.js-name-input');
         const name = inputElement.value;
 
-        ConsoleLogtest.push(name);
-        console.log(ConsoleLogtest);
+        consoleLogtest.push(name);
+        console.log(consoleLogtest);
 
         inputElement.value = '';
        }
