@@ -9,14 +9,37 @@
     text-align: center;
     background-color: lightblue;
 }
+        * {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
     </style>
 </head>
 <body>
     <h1>RC Patterson's Resume</h1>
+
+    <div class="row">
+  <div class="column" style="background-color:#aaa;">
     <h2 style="text-align: center;">Professional Summary</h2>
     <h3></h3>
     <p style="text-align: center;">Philosophy instructor with a doctorate in education and a seven years of experience teaching at the university level, two years of experience at non-profit outreach organizations, two years of experience in website content creation and management, marketing, selling and writing prose and fiction, two years providing educational assistance to adolescents, coupled with an understanding of research methodology. .</p>
-    <h1>Core Competencies</h1>
+    </div>
+         <div class="column" style="background-color:#bbb;">
+      <h1>Core Competencies</h1>
     <h2></h2>
     <h3></h3>
     <p>•	Propositional & Predicate Logic: Expertise in logical reasoning, using formal logic to develop solutions in web development and business analysis.</p>
@@ -25,7 +48,9 @@
     <p>•	Data Analysis & Visualization: Applying logical analysis to large data sets, utilizing tools like Excel, SPSS, and Tableau to support business decisions and policy formulation.</p>
     <p>•	Project Management: Using Agile methodologies to manage projects, ensuring efficient use of resources, on-time delivery, and alignment with business goals.</p>
     <p>•	Strategic Decision-Making: Utilizing logical models to guide decision-making processes, ensuring consistency, scalability, and alignment with organizational goals.</p>
-
+</div>
+</div>
+    
     <h1 style="text-align: center;">Education</h1>
     <h2 style="text-align: center;">Doctor of Education (Ed.D.)</h2>
     <h3 style="text-align: center;">University of Missouri-St. Louis, St. Louis, U.S.A. | 2024</h3>
