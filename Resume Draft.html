@@ -56,10 +56,28 @@
     <button style="text-align: center;">About Me</button>
     </a>
 
-       
+       <p>List</p>
+    <input placeholder="Todo name"
+        class="js-name-input">
+    <button onclick="
+        addTodo();
+    ">Add</button>
+
 
     <script>
         alert("Welcome to my web page")
+
+         const todoList = [];
+
+       function addTodo() {
+        const inputElement = document.querySelector('.js-name-input');
+        const name = inputElement.value;
+
+        todoList.push(name);
+        console.log(todoList);
+
+        inputElement.value = '';
+       }
     </script>
 
 </body>
