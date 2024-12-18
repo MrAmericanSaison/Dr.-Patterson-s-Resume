@@ -25,6 +25,12 @@
     <p>•	Data Analysis & Visualization: Applying logical analysis to large data sets, utilizing tools like Excel, SPSS, and Tableau to support business decisions and policy formulation.</p>
     <p>•	Project Management: Using Agile methodologies to manage projects, ensuring efficient use of resources, on-time delivery, and alignment with business goals.</p>
     <p>•	Strategic Decision-Making: Utilizing logical models to guide decision-making processes, ensuring consistency, scalability, and alignment with organizational goals.</p>
+    <p>Console.log test</p>
+    <input placeholder="Console.log test"
+        class="js-name-input">
+    <button onclick="
+        addTodo();
+    ">Add</button>
     <h1 style="text-align: center;">Education</h1>
     <h2 style="text-align: center;">Doctor of Education (Ed.D.)</h2>
     <h3 style="text-align: center;">University of Missouri-St. Louis, St. Louis, U.S.A. | 2024</h3>
@@ -54,8 +60,24 @@
     <a href="https://patteso1849.wordpress.com/about/">
     <button style="text-align: center;">About Me</button>
     </a>
+    
     <script>
         alert("Welcome to my web page")
+            
+           
+       const ConsoleLogtest = [];
+
+       function addConsoleLog() {
+        const inputElement = document.querySelector('.js-name-input');
+        const name = inputElement.value;
+
+        ConsoleLogtest.push(name);
+        console.log(ConsoleLogtest);
+
+        inputElement.value = '';
+       }
+
+       
     </script>
 
 </body>
