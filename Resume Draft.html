@@ -1,113 +1,177 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <img src="Me.png" alt="github.com">
-    <meta charset="UTF-8" />
-    <title style="text-align: center;">RC Patterson's Resume</title>
+    <head>
+        <title>RC Pattersons Resume</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
     <style>
+        html {
+            background: #444;
+            padding: 0 1em
+        }
         body {
-    text-align: center;
-    background-color: lightblue;
-    padding-bottom: 100px;
-}
+            background-color: #FFF;
+            font-family: 'Lato', sans-serif;
+            margin: 1em auto;
+            max-width: 50em;
+            height: 52.625em;
+        }
+        #section-left {
+            width: 35%;
+            float: left;
+            height: 100%;
+            background-color: #fc7a70;
+            color: #fff;
+            text-align: center;
+        }
+        #section-left .section .logo {
+            height: 250px;
+            width: 255px;
+            border-radius: 60%;
+            margin: 0 auto;
+            background: url('https://raw.githubusercontent.com/MrAmericanSaison/Dr.-Patterson-s-Resume/refs/heads/main/Me.png');
+            padding-top: 2%;
+        }
 
-        
-        * {
-  box-sizing: border-box;
-}
+        .intro hr {
+            width: 4em;
+            display: block;
+            height: 2px;
+            border: 0px;
+            border-top: 2px solid;
+        }
 
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
+        .intro .content {
+            margin-bottom: 20px;
+        }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-         
+        #contact {
+            margin-top: 40px;
+        }
+
+        h1 {
+            text-transform: uppercase;
+        }
+
+        #section-right {
+            width: 65%;
+            float: right;
+            /* height: 100%; */
+        }
+        #section-right .section {
+            margin: 0 0 30px 0;
+        }
+        .wrapper {
+            padding: 2em;
+        }
+        .fa {
+            margin-right: 15px;
+        }
+        .wrapper .title {
+            color: #fc7a70;
+            font-size: 1.3em;
+            font-variant: small-caps;
+            letter-spacing: 0.1em;
+            font-weight: bold;
+            border-bottom: 2px solid #f2f2f2;
+        }
+        a:link {
+            color: #fff;
+            text-decoration: none;
+        }
+        a:visited {
+            color: #fff;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+        a:active {
+            color: #fff;
+            text-decoration: none;
+         }
+
     </style>
-</head>
-<body>
-    <h1>RC Patterson's Resume</h1>
-  <a href="https://drive.google.com/file/d/1dDmT4L3bke9GvY8_Fte8S9pv-5ZYFtRt/view?usp=sharing">
-    <button style="text-align: right;">Complete Resume</button>
-    </a>
+    </head>
 
-    <a href="https://patteso1849.wordpress.com/about/">
-    <button style="text-align: right;">About Me</button>
-    </a>
+    <body>
+        <div id="section-left">
+            <div class="section intro">
+                <div class="logo"></div>
+                <h1>RC Patterson Ed.D</h1>
+                <div class="content">
+                    <span class="intro">Instructor</span> <br>
+                    <span class="title">Philosophy</span>
+                </div>
+                <hr>
+                <div id="contact">
+                    <span class="num">314xxx-xxxx</span>
+                    <div class="email">
+                        <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                        <a href="mailto : patteso1849@gmail.com">patteso1849@gmail.com</a></div>
+                    <div class="web">
+                        <i class="fa fa-link" aria-hidden="true"></i>
+                        <a href="https://example.com">www.example.com</a></div>
+                </div>
+            </div>
+        </div>
 
-       <p>List</p>
-    <input placeholder="Todo name"
-        class="js-name-input">
-    <button onclick="
-        addTodo();
-    ">Add</button>
-    <div class="row">
-  <div class="column" style="background-color:##00FFFF;">
-    <h2 style="text-align: center;">Professional Summary</h2>
-    <h3></h3>
-    <p style="text-align: center;">Philosophy instructor with a doctorate in education and a seven years of experience teaching at the university level, two years of experience at non-profit outreach organizations, two years of experience in website content creation and management, marketing, selling and writing prose and fiction, two years providing educational assistance to adolescents, coupled with an understanding of research methodology.</p>
-    
-  <h1>Core Competencies</h1>
-    <h2></h2>
-    <h3></h3>
-    <p>•    Propositional & Predicate Logic: Expertise in logical reasoning, using formal logic to develop solutions in web development and business analysis.</p>
-    <p>•	Business Problem Analysis: Applying logical frameworks to identify, analyze, and solve business challenges, ensuring data-driven decisions that optimize processes and performance.</p>
-    <p>•	Web Development & Algorithm Design: Developing logical algorithms and web-based applications using Python, HTML, CSS, and JavaScript to improve functionality and user experience.</p>
-    <p>•	Data Analysis & Visualization: Applying logical analysis to large data sets, utilizing tools like Excel, SPSS, and Tableau to support business decisions and policy formulation.</p>
-    <p>•	Project Management: Using Agile methodologies to manage projects, ensuring efficient use of resources, on-time delivery, and alignment with business goals.</p>
-    <p>•	Strategic Decision-Making: Utilizing logical models to guide decision-making processes, ensuring consistency, scalability, and alignment with organizational goals.</p>
+        <div id="section-right">
+            <div class="wrapper">
+                <div class="section">
+                    <div class="title"><i class="fa fa-user" aria-hidden="true"></i>Profile</div>
+                    <p>I am an instructor of philosophy with an interest in programming</p>
+                </div>
 
-  </div>
+                <div class="section">
+                    <div class="title">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                        Experience
+                        <div class="content">
+                            <h2>Instructor</h2>
+                            <h3>Harris-Stowe State University | Aug 2017 &raquo; Current</h3>
+                            <ul>
+                                <li>Teaching Logical Think, Ethics and Philosophy</li>
+                                <li>Teaching Logical Think, Ethics and Philosophy</li>
+                            </ul>
+                        </div>
 
-             <div class="row">
-  <div class="column" style="background-color:##00FFFF;">
-    <h1 style="text-align: center;">Education</h1>
-    <h2 style="text-align: center;">Doctor of Education (Ed.D.)</h2>
-    <h3 style="text-align: center;">University of Missouri-St. Louis, St. Louis, U.S.A. | 2024</h3>
-    <p></p>
-    <h1></h1>
-    <h2 style="text-align: center;">Master of Adult & Higher Education (M. Ed)</h2>
-    <h3 style="text-align: center;">University of Missouri-St. Louis, St. Louis, U.S.A. | 2020</h3>
-    <p></p>
-    <h1></h1>
-    <h2 style="text-align: center;">Master of Arts in Philosophy (M.A.)</h2>
-    <h3 style="text-align: center;">University of Missouri-St. Louis, St. Louis, U.S.A. | 2017</h3>
-    <h4 style="text-align: center;">Thesis: Coercion Negates Responsibility: A Case for Indirect Compelled Doxastic Coercion and Adaptive Preferences as Effects of Practical Coercion.</h4>
-    <p></p>
-    <h1></h1>
-    <h2 style="text-align: center;">Bachelor of Science in Urban Education with a Specialization in Public Administration</h2>
-    <h3 style="text-align: center;">Harris-Stowe State University, St. Louis, U.S.A. | 2011</h3>
-      </div>
-</div>
+                    <div class="section">
+                        <div class="title"><i class="fa fa-book" aria-hidden="true"></i>
+                            Education
+                        </div>
+                        <p>I have a Doctorate degree in Education</p>
+
+                    </div>
+
+                    <div class="section">
+                        <div class="title">
+                            <i class="fa fa-book" aria-hidden="true"></i>    
+                            Skills
+                        </div>
+                        <ul>
+                            <li>Teaching</li>
+                            <li>Programming</li>
+                            <li>Project Management</li>
+                        </ul>
+                    </div>
+                    <div class="section">
+                        <div class="title">
+                        <i class="fa fa-trophy" aria-hidden="true"></i>    
+                            Cerificate
+                        </div>
+                        <div class="content">
+                            <h2>Savvy Coders Certificate of Program Completion<h2>
+                        </div>
+                    </div>
 
 
-  
+                </div>
+
+            </div>
 
 
-    <script>
-        alert("Welcome to my web page")
+        </div>
 
-         const todoList = [];
 
-       function addTodo() {
-        const inputElement = document.querySelector('.js-name-input');
-        const name = inputElement.value;
-
-        todoList.push(name);
-        console.log(todoList);
-
-        inputElement.value = '';
-       }
-    </script>
-
-        
-</body>
+    </body>
 </html>
