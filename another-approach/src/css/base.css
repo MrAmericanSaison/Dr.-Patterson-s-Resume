@@ -1,0 +1,293 @@
+/* ========================= */
+/* main section              */
+/* ========================= */
+.body {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Roboto", "Times New Roman", Times, serif;
+  font-weight: 400;
+  padding: 20px;
+}
+
+/* ========================= */
+/* decoration styles         */
+/* ========================= */
+.border {
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+/* ========================= */
+/* outer container section   */
+/* ========================= */
+.outer-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ========================= */
+/* section styles            */
+/* ========================= */
+section {
+  padding: 20px 0;
+}
+
+.section-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.section-content {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.one-column-section {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.two-column-section {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+/* ========================= */
+/* left side of the header   */
+/* ========================= */
+.top-header-left {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: white;
+  background-image: url("../assets/avatar.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.name-title-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.name-title-container .name {
+  font-size: 24px;
+  padding-bottom: 0px;
+}
+
+.name-title-container .title {
+  font-size: 12px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 0px;
+}
+
+/* ========================= */
+/* right side of the header */
+/* ========================= */
+
+.icon-list {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.icon-list .icon-separator {
+  width: 2px;
+  height: 50%;
+  max-height: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.icon-list .icon {
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.icon-list .phone-icon {
+  background-image: url("../assets/icons/phone-icon.png");
+}
+
+.icon-list .email-icon {
+  background-image: url("../assets/icons/email-icon.png");
+}
+
+.icon-list .linkedin-icon {
+  background-image: url("../assets/icons/linkedin-icon.png");
+}
+
+/* ========================= */
+/* experience section        */
+/* ========================= */
+
+.experience-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.experience-item {
+  padding: 10px 0;
+}
+
+.experience-item-left {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo {
+  border-radius: 50%;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-position: center;
+}
+
+.harris-stowe-logo {
+  background-image: url("../assets/logos/harris-stowe-logo.jpeg");
+}
+
+.robert-half-logo {
+  background-image: url("../assets/logos/robert-half-logo.png");
+}
+
+.umsl-logo {
+  background-image: url("../assets/logos/umsl-logo.jpeg");
+}
+
+.company-name-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 50%;
+}
+
+.company-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.company-description {
+  font-size: 10px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.experience-item-right {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* ========================= */
+/* education section         */
+/* ========================= */
+
+.education-item {
+  padding: 10px 0;
+}
+
+.education-item-left {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.education-item-right {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+/* ========================= */
+/* skills section            */
+/* ========================= */
+
+.experience-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-badge {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.skill-name {
+  font-size: 10px;
+}
+
+.skill-level {
+  font-size: 10px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.skill-icon {
+  width: 12px;
+  height: 12px;
+  background-size: cover;
+  background-position: center;
+}
+
+.html-icon {
+  background-image: url("../assets/icons/html5-icon.png");
+}
+
+.css-icon {
+  background-image: url("../assets/icons/css3-icon.png");
+}
+
+.js-icon {
+  background-image: url("../assets/icons/js-icon.png");
+}
+
+.react-icon {
+  background-image: url("../assets/icons/react-icon.png");
+}
+
+.python-icon {
+  background-image: url("../assets/icons/python-icon.png");
+}
